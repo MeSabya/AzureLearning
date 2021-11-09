@@ -47,8 +47,8 @@ Azure is made up of datacenters located around the globe. When you use a service
 ## Azure resource groups
 - Resource groups are a fundamental element of the Azure platform. A **Resource group** is a logical container for resources deployed on Azure. 
 - These resources are anything you create in an Azure subscription like VMs, Azure Application Gateway instances, and Azure Cosmos DB instances. 
-- All resources must be in a resource group, and a resource can only be a member of a single resource group.Before any resource can be provisioned, you need a resource group for it to be placed in.
-- Resource groups can't be nested.
+- ❗All resources must be in a resource group, and a resource can only be a member of a single resource group.Before any resource can be provisioned, you need a resource group for it to be placed in.
+- ❗Resource groups can't be nested.
 
 ### Azure Resource Group Example
 Let's say we are developing a web application. There are several ways to do this. To keep this example simple, let's just assume we need the following 3 azure resources.
