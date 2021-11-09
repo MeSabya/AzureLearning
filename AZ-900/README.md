@@ -1,3 +1,19 @@
+## Symbols
+
+- There are two symbols used throughout the documentation.
+
+  | Symbol | Description |
+  |:------:|-------------|
+  | 💡 | Best practice or special hint for exam |
+  | ❗ | An important limitation, challenge or an exception |
+  | 📝 | Common exam area |
+  | 🤗 | Fact / trivia (most likely unrelated to the exam) |
+
+
+## Content
+
+<!-- no toc -->
+[AZ-900 Microsoft Azure Fundamentals]()
 # AZ-900 Material: Microsoft Azure Fundamentals
 ## Describe Core Azure Services
 1. [Availablity Zone](https://github.com/MeSabya/AzureLearning/tree/main/AZ-900/CoreAzureArchComponents#azure-availability-zones)
