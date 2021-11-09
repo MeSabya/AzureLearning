@@ -13,7 +13,8 @@
 ## Content
 
 <!-- no toc -->
-[AZ-900 Microsoft Azure Fundamentals]()
+1. [AZ-900 Microsoft Azure Fundamentals](https://github.com/MeSabya/AzureLearning/tree/main/AZ-900#az-900-material-microsoft-azure-fundamentals)
+
 # AZ-900 Material: Microsoft Azure Fundamentals
 ## Describe Core Azure Services
 1. [Availablity Zone](https://github.com/MeSabya/AzureLearning/tree/main/AZ-900/CoreAzureArchComponents#azure-availability-zones)
