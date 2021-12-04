@@ -41,7 +41,7 @@
 ### Redeploy your VM
 :point_right: Set-AzVM -Redeploy -ResourceGroupName "myResourceGroup" -Name "myVm"
 
-### RDP Troubleshoo: How to Verify Network Security Group rules?
+### RDP Troubleshoot: How to Verify Network Security Group rules?
 - This troubleshooting step verifies that you have a rule in your Network Security Group to permit RDP traffic. 
 - The default port for RDP is TCP port **3389**. A rule to permit RDP traffic may not be created automatically when you create your VM.
 
