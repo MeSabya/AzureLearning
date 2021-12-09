@@ -37,3 +37,26 @@ MongoDB	               MongoDB's lack of support for SQL-like queries give Core 
 ```
 #### Reference:
 [use-the-core-sql-api-to-store-a-product-catalog](https://docs.microsoft.com/en-us/learn/modules/choose-api-for-cosmos-db/4-use-the-core-sql-api-to-store-a-product-catalog)
+
+2️⃣ **Use the Gremlin (graph) API as a recommendation engine**
+#### Description 
+The marketing team wants to be able to offer additional product recommendations while customers are browsing products on your e-commerce site. For example, the team would like to provide suggestions like, "people who bought this product also bought that product", and "people who viewed this product also are viewing that product." The products that are recommended first should be your most popular products, therefore a method needs to be provided that will enable ranking the relationships between products.
+
+#### Problem analysis
+The data store needs to be able to assign weight values to the relationships between products. For example, you might store a count of the number of times that a relationship occurs. With that in mind, each time that a person buys "Product A" and "Product B", the relationship link between these two products needs to be incremented. This relationship counter is meta-data that needs to be stored in a database.
+
+![image](https://user-images.githubusercontent.com/33947539/145349997-d6a08ddb-fed1-4b96-b3e4-8fbeccceb373.png)
+
+#### Other Example of usecases
+👉 The e-commerce application has a requirement to support a shopping basket. Customers can add and remove products, and any discounts (like buy one get one free) need to be kept in the basket. The sales team wants the flexibility to offer different kinds of discounts, and to add or remove different product categories.
+**Core (SQL): This type of data is modeled best by documents. Core (SQL) is the best choice for a new system.**
+
+👉The risk department has asked if the new project could implement some form of fraud detection and prevention. The guidance is that the fraud system would need to be able to track the relationship between customers, payment types, billing and delivery addresses, IP address, geolocation, and past purchase history. Anything that doesn't fit into normal behavior should be flagged.
+**Gremlin Graph: as Complex relationships, and needed to store metadata against them is best supported by a graph mode of data. **
+
+👉 The sales team would like to offer a chat feature for customers. Messages will have a fixed number of characters and be simple. The schema is fixed, and the sales team has an existing chat app for which they have built up many CQL statements for creating reports. They would like to reuse them if possible.
+
+**Cassandra 
+
+
+
