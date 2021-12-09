@@ -47,7 +47,7 @@ The data store needs to be able to assign weight values to the relationships bet
 
 ![image](https://user-images.githubusercontent.com/33947539/145349997-d6a08ddb-fed1-4b96-b3e4-8fbeccceb373.png)
 
-#### Other Example of usecases
+3️⃣ **Other Example of usecases**
 👉 The e-commerce application has a requirement to support a shopping basket. Customers can add and remove products, and any discounts (like buy one get one free) need to be kept in the basket. The sales team wants the flexibility to offer different kinds of discounts, and to add or remove different product categories.
 **Core (SQL): This type of data is modeled best by documents. Core (SQL) is the best choice for a new system.**
 
