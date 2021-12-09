@@ -56,7 +56,7 @@ The data store needs to be able to assign weight values to the relationships bet
 
 👉 The sales team would like to offer a chat feature for customers. Messages will have a fixed number of characters and be simple. The schema is fixed, and the sales team has an existing chat app for which they have built up many CQL statements for creating reports. They would like to reuse them if possible.
 
-**Cassandra 
+**Cassandra** 
 
 
 
